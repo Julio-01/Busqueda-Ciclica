@@ -2,7 +2,7 @@
 public class main{
 
     public static void main(String[] args){
-        String ruta = "ejemplo.txt";
+        String ruta = "ejemplares.txt";
         Archivo archivo = new Archivo(ruta);
         archivo.leerArchivo();
     }
