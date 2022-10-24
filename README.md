@@ -9,14 +9,14 @@
 
 Nuestro algoritmo consiste en encontrar un elemento de una secuencia ciclica, recibe dentro del codigo un archivo ".txt" llamado "ejemplares.txt". Dentro del archivo se divide de la siguiente manera:
 
+```
 4,5,6,7,8,9 -> Secuencia ciclica
-
 5           -> Elemento a buscar
 
 
 6,7,8,1,2,3 -> Secuencia ciclica
-
 7           -> Elemento a buscar
+```
 
 Dentro del archivo podemos colocar varias secuencias, para cada secuencia el algoritmo imprimira su progreso.
 
@@ -38,7 +38,7 @@ La primera secuencia buscara el elemento "2" y la segunda buscara el elemento "1
 
 Nuestra salida mostrara lo siguiente:
 
-"--------------------------------------------------"
+```
 Secuencia Actual:   la secuencia con el que estamos
 
 Iteracion #:        el # de iteracion
@@ -50,8 +50,8 @@ Indice derecho:     indice del pivote derecho y su elemento
 Mitad:              indice de la mitad
 
 X[3] = 5 == 8? No   elemento del indice de la mitad y comparacion con el objeto a buscar
+```
 
-"--------------------------------------------------"
 
 ## Compilar
 
