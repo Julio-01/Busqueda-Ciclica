@@ -13,7 +13,6 @@ Nuestro algoritmo consiste en encontrar un elemento de una secuencia ciclica, re
 4,5,6,7,8,9 -> Secuencia ciclica
 5           -> Elemento a buscar
 
-
 6,7,8,1,2,3 -> Secuencia ciclica
 7           -> Elemento a buscar
 ```
@@ -40,15 +39,10 @@ Nuestra salida mostrara lo siguiente:
 
 ```
 Secuencia Actual:   la secuencia con el que estamos
-
 Iteracion #:        el # de iteracion
-
 Indice izquierdo:   indice del pivote izquierdo y su elemento
-
 Indice derecho:     indice del pivote derecho y su elemento
-
 Mitad:              indice de la mitad
-
 X[3] = 5 == 8? No   elemento del indice de la mitad y comparacion con el objeto a buscar
 ```
 
